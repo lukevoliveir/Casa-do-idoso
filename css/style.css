@@ -96,8 +96,28 @@ p {
     margin-right: 25px;
 }
 
-.menu li a:hover {
-    color: #fff;
+.btn-home:hover {
+    color: goldenrod;
+}
+
+.btn-eventos:hover {
+    color: lightgreen;
+}
+
+.btn-lazer:hover {
+    color: #1da1f2;
+}
+
+.btn-esportes:hover {
+    color: greenyellow;
+}
+
+.btn-contatos:hover {
+    color: orange;
+}
+
+.btn-sobre:hover {
+    color: sandybrown;
 }
 
 
@@ -123,4 +143,41 @@ p {
 
 .btn-google:hover {
     color: #ea4235;
+}
+
+
+/* MENU LATERAL */
+
+.menu-esquerdo {
+    width: 20%;
+    float: left;
+    padding: 10px 20px;
+    background-color: #777;
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 25px 0px 0px 15px;
+}
+
+.menu-esquerdo a {
+    color: #262626;
+    background-color: #111;
+    color: #9d9d9d;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border: solid 1px #111;
+}
+
+.menu-esquerdo a.fazer {
+    background-color: #111;
+    color: white;
+}
+
+.menu-esquerdo a.destaques {
+    background-color: #111;
+    color: white;
+}
+
+.menu-esquerdo a:hover {
+    background-color: #ccc;
 }
