@@ -120,6 +120,10 @@ p {
     color: sandybrown;
 }
 
+.btn-menu:hover {
+    color: red;
+}
+
 
 /*  SOCIAL ICONS */
 
@@ -152,7 +156,7 @@ p {
     width: 20%;
     float: left;
     padding: 10px;
-    background-color: #777;
+    background-color: #2C3E50;
     border: solid 1px;
     border-radius: 5px;
     margin: 25px;
@@ -160,12 +164,11 @@ p {
 
 .menu-esquerdo a {
     color: #262626;
-    background-color: #111;
+    background-color: #2C3E50;
     color: #9d9d9d;
     display: block;
     padding: 12px;
     text-decoration: none;
-    border: solid 1px white;
     border-radius: 4px;
 }
 
@@ -181,21 +184,30 @@ p {
     border: solid 1px #111;
 }
 
+.menu-esquerdo a:hover {
+    color: black;
+    background-color: #ea4235;
+}
+
 
 /* SIDEBAR */
 
 .onde-estamos {
-    width: 30%;
+    width: 25%;
     float: right;
-    padding: 10px 20px;
-    background-color: #777;
+    padding: 10px;
+    background-color: #2C3E50;
     border: solid 1px;
     border-radius: 5px;
     margin: 25px;
 }
 
+.onde-estamos h2 {
+    color: white;
+}
+
 .onde-estamos p {
-    color: black
+    color: white;
 }
 
 .onde-estamos h2 {
@@ -205,11 +217,12 @@ p {
 .onde-estamos iframe {
     width: 100%;
     height: 250px;
-    margin: 20px 0,
+    margin: 20px 0;
+    border-radius: 5px;
 }
 
 .onde-estamos li {
-    color: black;
+    color: white;
     margin-bottom: 10px;
 }
 
